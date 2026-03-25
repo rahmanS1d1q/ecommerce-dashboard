@@ -1,0 +1,23 @@
+metric,value,type,category,review_score,segment,count
+total_products,32341.0,kpi,,,,
+total_categories,73.0,kpi,,,,
+total_reviews,99224.0,kpi,,,,
+average_review_score,4.09,kpi,,,,
+,,top_category,bed_bath_table,,,3029
+,,top_category,sports_leisure,,,2867
+,,top_category,furniture_decor,,,2657
+,,top_category,health_beauty,,,2444
+,,top_category,housewares,,,2335
+,,top_category,auto,,,1900
+,,top_category,computers_accessories,,,1639
+,,top_category,toys,,,1411
+,,top_category,watches_gifts,,,1329
+,,top_category,telephony,,,1134
+,,review_distribution,,1,,11424
+,,review_distribution,,2,,3151
+,,review_distribution,,3,,8179
+,,review_distribution,,4,,19142
+,,review_distribution,,5,,57328
+,,customer_segment,,,High Satisfaction,76470
+,,customer_segment,,,Low Satisfaction,14575
+,,customer_segment,,,Medium Satisfaction,8179
