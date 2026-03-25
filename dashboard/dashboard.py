@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
@@ -6,8 +7,10 @@ import seaborn as sns
 st.set_page_config(page_title="E-Commerce Dashboard", layout="wide")
 sns.set(style="whitegrid")
 
-# Load data
-main_data_df = pd.read_csv("main_data.csv")
+base_dir = os.path.dirname(__file__)
+data_path = os.path.join(base_dir, "main_data.csv")
+
+main_data_df = pd.read_csv(data_path)
 
 # KPI
 kpi_df = main_data_df[main_data_df["type"] == "kpi"].copy()
